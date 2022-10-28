@@ -1,0 +1,38 @@
+# name, type, status, ip, port, angle, xoffset, yoffset
+# Type: Enum see generate.py
+# Status: bitfield see generate.py
+#
+BEER,      1, 64, 10.100.1.32, 8888, -152, 0, 0, none
+MIRACLES,  1,  0, 10.100.1.32, 8008, -131, 0, 0, http://10.100.211.201:3000/d/2_K_lvH4z/miracles?orgId=1&refresh=5s
+MAGIC,     1, 64, 10.100.1.32, 8888, -124, 0, 0, none
+VESPA,     1, 64, 10.100.1.32, 8888,   64, 0, 0, none
+HEIMDAL,   1, 64, 10.100.1.32, 8888, -105, 0, 0, none
+ODIN,      1, 64, 10.100.1.32, 8888,  145, 0, 0, none
+#
+NMX,       1, 0, 10.100.1.32, 8004, -159, 0, 0,http://10.100.211.201:3000/d/2CCsbb2Zg/nmx?orgId=1&refresh=5s
+#NMX-B, 1, 64, 10.100.1.32, 8888, -166, 0, 0, none
+CSPEC, 1, 64, 10.100.1.32, 8888, -145, 0, 0, none
+T-REX, 1, 64, 10.100.1.32, 8888, -117, 0, 0, none
+LoKI,  1,  0, 10.100.1.32, 8021,  -65, 0, 0, http://10.100.211.201:3000/d/2CCsbb2Zk/loki_iv?orgId=1&refresh=5s&var-region=1
+FREIA, 1,  0, 10.100.1.32, 8003,  -35, 0, 0, http://10.100.211.201:3000/d/IF-MdT77k/freia?orgId=1&refresh=5s
+Estia, 1, 64, 10.100.1.32, 8888,   22, 0, 0, none
+SKADI, 1, 64, 10.100.1.32, 8002,   44, 0, 0, none
+#
+DREAM,   1, 0, 10.100.1.32, 8006,  135, 0, 0, http://10.100.211.201:3000/d/8nvJTIH4z/dream?orgId=1&refresh=5s
+BIFROST, 1,  0, 10.100.1.32,   8001, -138, 0, 0, http://10.100.211.201:3000/d/qOGPyHmVz/bifrost?orgId=1&refresh=5s
+#
+h01-r1n19, 2, 0, 10.100.1.19, 9092, 0, -400, -140, http://10.100.211.201:3000/d/7MMlVOjik/kafka-broker?orgId=1&refresh=30s&var-server=h01-r1n19_ecdcutgaard_esss_dk
+h01-r1n21, 2, 0, 10.100.1.21, 9092, 0, -400, -125, http://10.100.211.201:3000/d/7MMlVOjik/kafka-broker?orgId=1&refresh=30s&var-server=h01-r1n21_ecdcutgaard_esss_dk
+h01-r2n21, 2, 0, 10.100.2.21, 9092, 0, -400, -110, http://10.100.211.201:3000/d/7MMlVOjik/kafka-broker?orgId=1&refresh=30s&var-server=h01-r2n21_ecdcutgaard_esss_dk
+h01-r2n23, 2, 0, 10.100.2.23, 9092, 0, -400, -95, http://10.100.211.201:3000/d/7MMlVOjik/kafka-broker?orgId=1&refresh=30s&var-server=h01-r2n23_ecdcutgaard_esss_dk
+h01-r2n25, 2, 0, 10.100.2.25, 9092, 0, -400, -80, http://10.100.211.201:3000/d/7MMlVOjik/kafka-broker?orgId=1&refresh=30s&var-server=h01-r2n25_ecdcutgaard_esss_dk
+h01-r2n27, 2, 0, 10.100.2.25, 9092, 0, -400, -65, http://10.100.211.201:3000/d/7MMlVOjik/kafka-broker?orgId=1&refresh=30s&var-server=h01-r2n27_ecdcutgaard_esss_dk
+#
+carbon,  3, 0, 10.100.211.201, 2003, 0, -400, -20, none
+grafana, 3, 0, 10.100.211.201, 3000, 0, -400, -5, none
+AKHQ,    3, 0, 10.100.211.193, 8080, 0, -400, 10, none
+graylog, 3, 0, 10.100.211.187, 9000, 0, -400, 25, none
+#nicos02, 3,64, 172.30.242.28, 1301, 0, -400, 40, none
+#
+Kafka &nbsp; Brokers,  4, 64, 0.0.0.0, 65535, 0, -400, -160, none
+Other &nbsp; Services, 4, 64, 0.0.0.0, 65535, 0, -400, -40, none
